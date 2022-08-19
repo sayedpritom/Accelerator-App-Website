@@ -29,7 +29,7 @@ const Header = () => {
                         <div className="py-5 mt-20">
                             <h4 className={headerSmallText}>Join in and connect</h4>
                             <h1 className={mainHeaderText}>To faster your <br /> innovation potential</h1>
-                            <p className={headerParagraphText}>AcceleratorApp Innovation Community — Tools and community to <br />  facilitate innovation between all members of our community</p>
+                            <p className={headerParagraphText}>AcceleratorApp Innovation Community — Tools and community to <br className="hidden lg:inline" />  facilitate innovation between all members of our community</p>
                             <button className={`btn btn-secondary border-transparent rounded-sm my-5 hover:bg-transparent hover:text-white hover:border-white ${btnWhite}`}>Schedule a Demo</button>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const Header = () => {
                         </div>
                         <img className="w-11/12 mx-auto" src={videoImage} alt="" />
                     </div>
-                    <img className="hidden lg:block absolute w-20 right-20 -translate-y-[120px] hover:shadow-xl cursor-pointer rounded-full" src={chatIcon} alt="" />
+                    <img className="hidden lg:block absolute w-[60px] right-20 -translate-y-[120px] shadow-xl cursor-pointer rounded-full" src={chatIcon} alt="" />
                 </div>
             </div>
             <div className={aboutCookies}>

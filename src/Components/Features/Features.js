@@ -87,6 +87,9 @@ const Features = () => {
                     <div className="flex justify-center">
                         <PaginationButtons position={position} setPosition={setPosition} items={cards} />
                     </div>
+                    <div className="flex justify-center mt-14">
+                        <button className="btn btnOutlined text-bold min-h-0 h-[40px] hover:bg-transparent hover:border-gray-600 hover:text-gray-900 hover:text-black"><span className="flex justify-right">Discover its functions  <img className="ml-3" src={btnArrow} alt="" /></span></button>
+                    </div>
                 </div>
             </div>
         </section>

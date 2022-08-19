@@ -11,6 +11,7 @@
     font-size: 24px;
     line-height: 36px;
     text-align: center;
+    color: #F3F5F7;
 }
 
 .signUp {
@@ -80,4 +81,13 @@
     color: #B6C0CD;
     display: inline-block;
     margin: 10px 20px 10px 0;
+}
+
+
+/* Responsive CSS Styles*/
+
+@media only screen and (max-width: 480px) {
+    .footerLink {
+        font-size: 10px;
+    }
 }

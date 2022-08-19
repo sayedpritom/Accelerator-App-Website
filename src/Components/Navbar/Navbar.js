@@ -1,7 +1,6 @@
-import React from 'react';
-import { test } from './Navbar.module.css';
+import React from 'react'
 import logo from '../../images/HeaderLogo.svg'
-import hamburgerIcon from '../../images/hamburgerIcon.svg';
+import hamburgerIcon from '../../images/hamburgerIcon.svg'
 import { headerLogo, navbarBtnWhite, navbarLinks, navbar } from './Navbar.module.css'
 
 
@@ -11,7 +10,9 @@ const Navbar = () => {
             <div className="container mx-auto">
                 <div className="navbar bg-transparent">
                     <div className="navbar-start">
-                        <a className="btn btn-ghost normal-case text-xl" style={{ "background": "none" }}><img src={logo} alt="" /> <p className={headerLogo}>AcceleratorApp</p></a>
+                        <a className="btn btn-ghost normal-case text-xl" style={{ "background": "none" }}>
+                            <img src={logo} alt="" /> <p className={`hidden md:block ${headerLogo}`}>AcceleratorApp</p>
+                        </a>
                     </div>
                     <div className="navbar-end">
                         <div className=" hidden lg:flex">

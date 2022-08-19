@@ -21,7 +21,9 @@ import {
     testimony,
     client,
     review,
-    contactUs
+    designation,
+    contactUs,
+    button
 
 } from './Reputation.module.css'
 import { useState } from 'react'
@@ -67,18 +69,18 @@ const Reputation = () => {
     return (
         <section className="max-w-[1131px] mx-auto px-5 xl:px-0">
             <div className="flex justify-between flex-wrap">
-                <div className="w-full xl:w-2/6 xl:min-w-[450px] mb-14">
+                <div className="relative w-full xl:w-2/6 xl:min-w-[450px] mb-14">
                     <h1 className={`my-10 ${bigHeading}`}>What our <br /> customers say</h1>
-                    <button className="btn btnOutlined text-bold min-h-0 h-[40px] hover:bg-transparent hover:border-gray-600 hover:text-gray-900 hover:text-black">150 + incubators/accelerators using AcceleratorApp <img className="ml-3" src={btnArrow} alt="" /></button>
+                    <button className={`${button} btn absolute xl:static top-[690px] btnOutlined text-bold h-auto lg:h-[40px] hover:bg-transparent hover:border-gray-600 hover:text-gray-900 hover:text-black`}>150 + incubators/accelerators using AcceleratorApp <img className="w-[15px] md:w-auto ml-3" src={btnArrow} alt="" /></button>
                 </div>
                 <div className={`w-full xl:w-7/12 xl:min-w-[400px] ${testimony}`}>
                     <p className={review}>{reviews[position].description}</p>
                     <br />
-                    <p>François Jolly, Director of Programs • Startup lab</p>
+                    <p className={designation}>François Jolly, Director of Programs • <strong>Startup lab</strong></p>
                     <br />
                     <img src={reviews[position].logo} alt="" />
                     <img className={client} src={reviews[position].photo} alt="" />
-                    <div className={`absolute right-[70%] md:right-[50%] bottom-[-50px] `}>
+                    <div className={`absolute right-[50%] md:right-[50%] bottom-[-50px] `}>
                         <PaginationButtons position={position} setPosition={setPosition} items={reviews}  />
                     </div>
                 </div>

@@ -2,7 +2,13 @@
     font-weight: 600;
     font-size: 54.6074px;
     line-height: 61px;
-    color: #1B1E22;
+    color: #000000cc;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 .testimony {
@@ -18,8 +24,15 @@
     border-radius: 32px;
     position: absolute;
     right: 0;
-    /* bottom: 0px; */
     transform: translate(0, -25%);
+}
+
+.testimony>p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: justify;
+    color: #1B1E22;
 }
 
 .review {
@@ -53,9 +66,60 @@
 }
 
 
+
+/* Responsive CSS Styles*/
+
 @media only screen and (max-width: 768px) {
+
     .bigHeading {
         font-size: 40px;
         line-height: 48px;
     }
+
+    .button {
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .testimony>p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .review {
+        min-height: 80px;
+    }
+
+    .client {
+        width: 157px;
+        height: 157px;
+        box-shadow: 0px 9.66084px 28.9825px rgba(0, 0, 0, 0.18);
+        border-radius: 19px;
+        right: 0;
+        transform: translate(0, -25%);
+    }
+
+    .smallHeading {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .mediumHeading {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .contactUs {
+        padding: 400px 0 150px 0;
+        background-position: 0% 500px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .testimony>p {
+        font-size: 8px;
+        line-height: 18px;
+    }
+
 }
