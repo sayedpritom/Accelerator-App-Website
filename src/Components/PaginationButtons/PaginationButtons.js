@@ -14,7 +14,7 @@ const PaginationButtons = (props) => {
                 [...Array(items.length).keys()].map((number, index) =>
                     <button
                         key={index}
-                        className={position === number && 'bg-primary border-none'}
+                        className={position === number ? 'bg-primary border-none' : ''}
                         onClick={() => setPosition(number)}>
                     </button>)
             }

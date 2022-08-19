@@ -17,8 +17,16 @@ import {
 
 } from './Footer.module.css';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Footer = () => {
+
+    const notify = (e) => {
+        e.preventDefault();
+        (/\S+@\S+\.\S+/.test(e.target.email.value)) ? toast.success("Email Address Received. Thank you!") : toast.error("Error! Please provide a valid Email") 
+        
+    }
 
     return (
         <footer className={footer}>
@@ -28,9 +36,9 @@ const Footer = () => {
                     <p className={signUp}>Sign up for news and updates about AcceleratorApp</p>
                 </div>
 
-                <form className={emailForm} action="">
-                    <input type="email" placeholder='Your Email' name="" id="" />
-                    <button><img src={arrow} alt="" /></button>
+                <form onSubmit={notify} className={emailForm} action="">
+                    <input type="email" placeholder='Your Email' name="email" id="" />
+                    <button type="submit"><img src={arrow} alt="" /></button>
                 </form>
                 <div className="grid grid-col lg:grid-cols-9">
                     <div className="lg:col-span-8">
@@ -105,8 +113,8 @@ const Footer = () => {
                         <p className={`mr-[0!important] ${footerLink}`}>English</p>
                     </div>
                 </div>
-
             </section>
+            <ToastContainer />
         </footer>
     );
 };
