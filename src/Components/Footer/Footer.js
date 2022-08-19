@@ -24,7 +24,7 @@ const Footer = () => {
 
     const notify = (e) => {
         e.preventDefault();
-        (/\S+@\S+\.\S+/.test(e.target.email.value)) ? toast.success("Email Address Received. Thank you!") : toast.error("Error! Please provide a valid Email") 
+        (/\S+@\S+\.\S+/.test(e.target.email.value)) ? toast.success("Email address received. Thank you!") : toast.error("Error! Please provide a valid Email") 
         
     }
 
