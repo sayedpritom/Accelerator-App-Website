@@ -14,8 +14,6 @@ import {
     looper,
     videoBtn,
     aboutCookies,
-    acceptCookieBtn,
-    knowMoreBtn,
     policyBtn
 } from './Header.module.css'
 
@@ -29,7 +27,7 @@ const Header = () => {
                         <div className="py-5 mt-20">
                             <h4 className={headerSmallText}>Join in and connect</h4>
                             <h1 className={mainHeaderText}>To faster your <br /> innovation potential</h1>
-                            <p className={headerParagraphText}>AcceleratorApp Innovation Community — Tools and community to <br className="hidden lg:inline" />  facilitate innovation between all members of our community</p>
+                            <p className={headerParagraphText}>AcceleratorApp Innovation Community — Tools and community to <br className="hidden md:inline" />  facilitate innovation between all members of our community</p>
                             <button className={`btn btn-secondary border-transparent rounded-sm my-5 hover:bg-transparent hover:text-white hover:border-white ${btnWhite}`}>Schedule a Demo</button>
                         </div>
                     </div>

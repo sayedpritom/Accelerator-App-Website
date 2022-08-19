@@ -6,7 +6,7 @@ import { headerLogo, navbarBtnWhite, navbarLinks, navbar } from './Navbar.module
 
 const Navbar = () => {
     return (
-        <div className={navbar}>
+        <nav className={navbar}>
             <div className="container mx-auto">
                 <div className="navbar bg-transparent">
                     <div className="navbar-start">
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 };
 

@@ -2,7 +2,6 @@ import * as React from "react"
 import Community from "../Components/Community/Community"
 import Features from "../Components/Features/Features"
 import Header from "../Components/Header/Header"
-import Navbar from "../Components/Navbar/Navbar"
 import Reputation from "../Components/Reputation/Reputation"
 import './index.css'
 import Helmet  from 'react-helmet';

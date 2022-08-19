@@ -1,4 +1,6 @@
 import React from 'react'
+import PaginationButtons from '../PaginationButtons/PaginationButtons'
+
 import btnArrow from '../../images/btnArrow.svg'
 import BgEllipse from '../../images/reputation-images/Bg-Ellipse.svg'
 import GermanAccelerator from '../../images/reputation-images/GermanAccelerator.png'
@@ -11,8 +13,6 @@ import Client2 from '../../images/reputation-images/client2.png'
 import Client3 from '../../images/reputation-images/client3.png'
 import Client4 from '../../images/reputation-images/client4.png'
 import Client5 from '../../images/reputation-images/client5.png'
-
-
 
 import {
     bigHeading,
@@ -27,11 +27,9 @@ import {
 
 } from './Reputation.module.css'
 import { useState } from 'react'
-import PaginationButtons from '../PaginationButtons/PaginationButtons'
 
 const Reputation = () => {
-    // const [review, setReview] = useState(5);
-    const [position, setPosition] = useState(0);
+    const [position, setPosition] = useState(0)
 
     const reviews = [
         {

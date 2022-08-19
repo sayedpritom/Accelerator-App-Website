@@ -1,6 +1,8 @@
 import React from 'react'
-import btnArrow from '../../images/btnArrow.svg'
 import FeaturesCard from './FeaturesCard/FeaturesCard'
+import PaginationButtons from '../PaginationButtons/PaginationButtons'
+
+import btnArrow from '../../images/btnArrow.svg'
 import background from '../../images/features-images/featuresSectionBg.svg'
 import Multilingual from '../../images/features-images/features-section-card-icon/Multilingual.svg'
 import SchedulingTools from '../../images/features-images/features-section-card-icon/Scheduling tools.svg'
@@ -10,14 +12,14 @@ import AutomateEmails from '../../images/features-images/features-section-card-i
 import CalendarIntegration from '../../images/features-images/features-section-card-icon/Calendar Integration.svg'
 import Zapier from '../../images/features-images/features-section-card-icon/Zapier Integration.svg'
 import AndMore from '../../images/features-images/features-section-card-icon/And More.svg'
+
 import {
     heading,
     features,
     title,
-    pagination
 } from './Features.module.css'
+
 import { useState } from 'react'
-import PaginationButtons from '../PaginationButtons/PaginationButtons'
 
 const Features = () => {
     const [position, setPosition] = useState(0);

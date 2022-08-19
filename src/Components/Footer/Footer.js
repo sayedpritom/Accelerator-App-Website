@@ -1,10 +1,14 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import arrow from '../../images/footer-images/btnArrowWhite.svg';
 import LinkedIn from '../../images/footer-images/social-icons/Linkedin.svg'
 import Facebook from '../../images/footer-images/social-icons/Facebook.svg'
 import Instagram from '../../images/footer-images/social-icons/Instagram.svg'
 import Twitter from '../../images/footer-images/social-icons/Twitter.svg'
 import GlobeIcon from '../../images/footer-images/GlobeIcon.svg'
+
 import {
     footer,
     community,
@@ -13,19 +17,13 @@ import {
     footerTitle,
     footerLink,
     links,
-    follow
-
 } from './Footer.module.css';
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 const Footer = () => {
-
     const notify = (e) => {
         e.preventDefault();
-        (/\S+@\S+\.\S+/.test(e.target.email.value)) ? toast.success("Email address received. Thank you!") : toast.error("Error! Please provide a valid address") 
-        
+        (/\S+@\S+\.\S+/.test(e.target.email.value)) ? toast.success("Email address received. Thank you!") : toast.error("Error! Please provide a valid address")    
     }
 
     return (

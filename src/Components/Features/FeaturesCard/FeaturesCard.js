@@ -1,8 +1,6 @@
 import React from 'react'
 import { featuresCard } from './FeaturesCard.module.css'
 
-console.log(featuresCard)
-
 const CommunityCards = (props) => {
     const { icon, heading, description } = props.card
     return (
