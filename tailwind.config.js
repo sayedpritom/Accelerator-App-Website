@@ -35,4 +35,8 @@ module.exports = {
     ],
   },
   plugins: [require("daisyui")],
+  purge: [
+    "./src/components/**/*.{js,jsx}",
+    "./public/index.html",
+  ],
 }
