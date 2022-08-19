@@ -1,0 +1,53 @@
+.bigHeading {
+    font-weight: 600;
+    font-size: 54.6074px;
+    line-height: 61px;
+    color: #1B1E22;
+}
+
+.testimony {
+    padding: 40px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    position: relative;
+}
+
+.client {
+    box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.18);
+    border-radius: 32px;
+    position: absolute;
+    right: 0;
+    /* bottom: 0px; */
+    transform: translate(0, -25%);
+}
+
+.review {
+    min-height: 150px;
+}
+
+.contactUs {
+    padding: 400px 0 300px 0;
+    height: auto;
+    background-position: 0% 300px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.smallHeading {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #6B788A;
+    margin: 16px 0;
+
+}
+
+.mediumHeading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #111B29;
+}

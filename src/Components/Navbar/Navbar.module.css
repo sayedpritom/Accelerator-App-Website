@@ -1,0 +1,28 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.05);
+}
+.headerLogo {
+    color: white;
+    font-weight: 700;
+    font-size: 15.2542px;
+    line-height: 18px;
+    margin: 0 10px;
+}
+
+.navbarLinks {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.navbarLinks > li{
+    margin: 0 20px;
+}
+
+.navbarBtnWhite {
+    color: #206ECF;
+    background: #FFFFFF;
+    border-radius: 4px;
+}

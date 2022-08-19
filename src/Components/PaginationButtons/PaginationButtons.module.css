@@ -1,0 +1,7 @@
+.btnGroup > button {
+    width: 6px;
+    height: 6px;
+    border-radius: 15px;
+    margin-right: 5px;
+    border: 0.3px solid #206ECF;
+}

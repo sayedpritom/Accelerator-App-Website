@@ -1,0 +1,83 @@
+.footer {
+    background: #1B1E22;
+    color: white;
+    box-sizing: content-box;
+}
+
+.community {
+    padding-top: 30px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.signUp {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F5F7;
+}
+
+.emailForm {
+    margin: 20px auto 30px auto;
+    text-align: center;
+    border-bottom: 1px solid white;
+    max-width: 442px;
+    height: 50px;
+
+}
+
+.emailForm>input {
+    background: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+    margin-bottom: 30px;
+    width: calc(100% - 16px);
+}
+
+.emailForm>input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.emailForm>input:focus {
+    outline: none;
+}
+
+.emailForm>button {
+    width: 16px;
+    height: 8px;
+}
+
+.links {
+    max-width: 187px;
+    margin: 20px 20px 20px 0;
+}
+
+.footerTitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F3F5F7;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footerLink {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B6C0CD;
+    display: inline-block;
+    margin: 10px 20px 10px 0;
+}

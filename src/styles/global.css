@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btnCommon {
+    @apply bg-primary font-medium normal-case border-transparent text-white rounded-sm hover:bg-white hover:text-primary hover:border-primary
+}
+
+.btnOutlined {
+    @apply bg-transparent font-medium normal-case border-primary text-primary rounded-sm hover:bg-primary hover:text-white hover:border-transparent
+}

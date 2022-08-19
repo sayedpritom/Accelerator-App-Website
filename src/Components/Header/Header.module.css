@@ -1,0 +1,97 @@
+.header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-break: break-all;
+}
+
+.looper {
+    width: 100%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+
+}
+
+.headerSmallText {
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.mainHeaderText {
+    margin: 20px 0 30px 0;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 64px;
+    color: white;
+}
+
+.headerMediumText {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 165%;
+}
+
+.btnWhite {
+    color: #1B1E22;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.videoBtn {
+    width: 202px;
+    height: 55px;
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(100px, 0);
+}
+
+.videoBtn > button {
+    width: 100%;
+    height: 55px;
+    background: #206ECF;
+    border-radius: 16px;
+    color: white;
+}
+
+/* .videoBtn:active {
+    color: red;
+    transform: translate(-50%, 0);
+} */
+
+/* .videoBtn > button > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.aboutCookies {
+    margin: 30px 0;
+    padding: 5px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+}
+
+.acceptCookieBtn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 157px;
+    height: 48px;
+    background: #206ECF;
+    border-radius: 4px;
+}
+
+.policyBtn {
+    font-weight: 400;
+    font-size: 14px;
+    color: #0D122B;
+}
