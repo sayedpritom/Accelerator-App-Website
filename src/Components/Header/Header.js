@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import backgroundImage from '../../images/HeaderBackground.svg'
-import backgroundImageLooper from '../../images/HeaderLooper-3.svg'
-import videoImage from '../../images/Video.svg'
-import playIcon from '../../images/playIcon.svg'
-import chatIcon from '../../images/customerChatBoxIcon.svg'
+import backgroundImage from '../../images/header-images/HeaderBackground.svg'
+import backgroundImageLooper from '../../images/header-images/HeaderLooper-3.svg'
+import videoImage from '../../images/header-images/Video.svg'
+import playIcon from '../../images/header-images/playIcon.svg'
+import chatIcon from '../../images/header-images/customerChatBoxIcon.svg'
 import {
     header,
     headerSmallText,

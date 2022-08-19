@@ -1,6 +1,6 @@
 import React from 'react'
 import { card, cardHeader } from './CommunityCard.module.css'
-import bulletPoints from '../../../images/community-card-icons/ListIcon.svg'
+import bulletPoints from '../../../images/community-images/community-card-icons/ListIcon.svg'
 
 const CommunityCard = (props) => {
     const { icon, heading, description, title, features, listIcon } = props.card

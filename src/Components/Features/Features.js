@@ -1,18 +1,15 @@
 import React from 'react'
-
 import btnArrow from '../../images/btnArrow.svg'
 import FeaturesCard from './FeaturesCard/FeaturesCard'
-import background from '../../images/featuresSectionBg.svg'
-import Multilingual from '../../images/features-section-card-icon/Multilingual.svg'
-import SchedulingTools from '../../images/features-section-card-icon/Scheduling tools.svg'
-import SmartTask from '../../images/features-section-card-icon/Smart tasks.svg'
-import TrackEMails from '../../images/features-section-card-icon/Track e-Mails.svg'
-import AutomateEmails from '../../images/features-section-card-icon/Automate your e-Mails.svg'
-import CalendarIntegration from '../../images/features-section-card-icon/Calendar Integration.svg'
-import Zapier from '../../images/features-section-card-icon/Zapier Integration.svg'
-import AndMore from '../../images/features-section-card-icon/And More.svg'
-
-
+import background from '../../images/features-images/featuresSectionBg.svg'
+import Multilingual from '../../images/features-images/features-section-card-icon/Multilingual.svg'
+import SchedulingTools from '../../images/features-images/features-section-card-icon/Scheduling tools.svg'
+import SmartTask from '../../images/features-images/features-section-card-icon/Smart tasks.svg'
+import TrackEMails from '../../images/features-images/features-section-card-icon/Track e-Mails.svg'
+import AutomateEmails from '../../images/features-images/features-section-card-icon/Automate your e-Mails.svg'
+import CalendarIntegration from '../../images/features-images/features-section-card-icon/Calendar Integration.svg'
+import Zapier from '../../images/features-images/features-section-card-icon/Zapier Integration.svg'
+import AndMore from '../../images/features-images/features-section-card-icon/And More.svg'
 import {
     heading,
     features,

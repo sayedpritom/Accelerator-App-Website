@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../images/HeaderLogo.svg'
-import hamburgerIcon from '../../images/hamburgerIcon.svg'
+import logo from '../../images/navbar-images/HeaderLogo.svg'
+import hamburgerIcon from '../../images/navbar-images/hamburgerIcon.svg'
 import { headerLogo, navbarBtnWhite, navbarLinks, navbar } from './Navbar.module.css'
 
 

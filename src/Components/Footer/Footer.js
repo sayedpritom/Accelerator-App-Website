@@ -1,10 +1,10 @@
 import React from 'react';
-import arrow from '../../images/btnArrowWhite.svg';
-import LinkedIn from '../../images/social-icons/Linkedin.svg'
-import Facebook from '../../images/social-icons/Facebook.svg'
-import Instagram from '../../images/social-icons/Instagram.svg'
-import Twitter from '../../images/social-icons/Twitter.svg'
-import GlobeIcon from '../../images/GlobeIcon.svg'
+import arrow from '../../images/footer-images/btnArrowWhite.svg';
+import LinkedIn from '../../images/footer-images/social-icons/Linkedin.svg'
+import Facebook from '../../images/footer-images/social-icons/Facebook.svg'
+import Instagram from '../../images/footer-images/social-icons/Instagram.svg'
+import Twitter from '../../images/footer-images/social-icons/Twitter.svg'
+import GlobeIcon from '../../images/footer-images/GlobeIcon.svg'
 import {
     footer,
     community,

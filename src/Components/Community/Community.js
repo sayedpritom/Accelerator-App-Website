@@ -1,18 +1,16 @@
 import React from 'react';
-import icons from '../../images/Icons.png'
+import icons from '../../images/community-images/Icons.png'
 
-import Engage from '../../images/community-card-icons/Engage.svg'
-import Incubator from '../../images/community-card-icons/Incubator.svg'
-import Investor from '../../images/community-card-icons/Investor.svg'
-import Rocket from '../../images/community-card-icons/Rocket.svg'
-import Team from '../../images/community-card-icons/Team.svg'
+import Engage from '../../images/community-images/community-card-icons/Engage.svg'
+import Incubator from '../../images/community-images/community-card-icons/Incubator.svg'
+import Investor from '../../images/community-images/community-card-icons/Investor.svg'
+import Rocket from '../../images/community-images/community-card-icons/Rocket.svg'
+import Team from '../../images/community-images/community-card-icons/Team.svg'
 
 import {
     title,
     heading,
     paragraph,
-
-
 } from './Community.module.css'
 import CommunityCard from './CommunityCard/CommunityCard';
 

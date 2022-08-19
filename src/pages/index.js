@@ -5,7 +5,7 @@ import Header from "../Components/Header/Header"
 import Navbar from "../Components/Navbar/Navbar"
 import Reputation from "../Components/Reputation/Reputation"
 import './index.css'
-import { Helmet } from 'react-helmet';
+import Helmet  from 'react-helmet';
 import Footer from "../Components/Footer/Footer"
 
 const IndexPage = () => {
