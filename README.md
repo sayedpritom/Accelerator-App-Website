@@ -1,5 +1,7 @@
 # Accelerator App
 
+## Live site: https://storied-semolina-1596cd.netlify.app/?
+
 ## Website Features and Functionalities:
 * Fully Responsive Layout for Mobile & Desktop 
 * Implemented Pagination in "Features(shows up in small screen)" & Reviews section. Clicking on the small dots changes the information. 
